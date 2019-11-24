@@ -1,0 +1,70 @@
+
+/*clear css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.s2 {
+	color: #444;
+	display: flex;
+	align-items: center;
+}
+.s2:before, .s2:after {
+	content: "";
+	flex-grow: 1;
+	height: 2px;
+	display: block;
+}
+.s2:before {
+	margin-right: .4em;
+	background: linear-gradient(-90deg, #888, transparent);
+}
+.s2:after {
+	margin-left: .4em;
+	background: linear-gradient(90deg, #888, transparent);
+}
+
+#yama{
+    color: #333333;
+}
+
+
+
+.header-nav{
+    padding: 1%;
+}
+
+
+
+li{
+	list-style: none;
+}
+
+
+
+header a:hover{
+    background-color: rgb(192,192,192, 0.3);
+    text-decoration: none;
+}
+
+.profile{
+    width: 80%;
+    height: auto;
+    margin: 0% auto;
+}
+
+img{
+    width: 40%;
+    height: auto;
+}
+
+.text{
+    width: 100%;
+    padding-left:25%;
+}
+
+.skill-logo{
+    font-size: 5em;
+}
